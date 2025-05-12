@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Jaguar - Sabores salvajes</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        header {
+            background-color: #1a1a1a;
+            color: #f8d347;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+        
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: #f8d347;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .hero {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.5em;
+            text-shadow: 2px 2px 5px #000;
+        }
+        
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .menu-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            background-color: #1a1a1a;
+            color: #f8d347;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        
+        .gallery img {
+            width: 30%;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://placeholder.com/100x100" alt="Logo Jaguar" class="logo">
+        <h1>Restaurante Jaguar</h1>
+        <p>Sabores salvajes que despiertan tus instintos</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <section id="inicio" class="hero">
+        <div>
+            <h1>Experiencia gastronómica salvaje</h1>
+            <p>Descubre los sabores más audaces de la selva</p>
+        </div>
+    </section>
+    
+    <section id="menu">
+        <h2>Nuestro Menú</h2>
+        
+        <div class="menu-item">
+            <h3>Entradas</h3>
+            <p><strong>Garras de Jaguar</strong> - Croquetas de yuca rellenas de carne desmenuzada $8.99</p>
+            <p><strong>Selva Verde</strong> - Ensalada tropical con aderezo de maracuyá $7.50</p>
+        </div>
+        
+        <div class="menu-item">
+            <h3>Platos Fuertes</h3>
+            <p><strong>Rugido del Jaguar</strong> - Lomo de res con salsa de chile habanero y guarniciones $18.99</p>
+            <p><strong>Caza del Día</strong> - Pez fresco con especias de la selva y vegetales $16.50</p>
+            <p><strong>Vegetariano Selvático</strong> - Wok de vegetales con tofu y salsa de tamarindo $14.99</p>
+        </div>
+        
+        <div class="menu-item">
+            <h3>Postres</h3>
+            <p><strong>Ojos de Jaguar</strong> - Profiteroles rellenos de crema de café $6.99</p>
+            <p><strong>Frutos de la Selva</strong> - Selección de frutas tropicales con miel $5.50</p>
+        </div>
+    </section>
+    
+    <section id="galeria">
+        <h2>Galería</h2>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Plato del restaurante">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38" alt="Plato gourmet">
+            <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187" alt="Comida saludable">
+            <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543" alt="Desayuno">
+            <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929" alt="Panqueques">
+            <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601" alt="Hamburguesa">
+        </div>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p><strong>Dirección:</strong> Calle Selva 123, Ciudad</p>
+        <p><strong>Teléfono:</strong> (555) 123-4567</p>
+        <p><strong>Horario:</strong> Lunes a Domingo 11:00 AM - 10:00 PM</p>
+        <p><strong>Correo:</strong> info@restaurantejaguar.com</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Restaurante Jaguar. Todos los derechos reservados.</p>
+        <p>Síguenos en redes sociales: [iconos]</p>
+    </footer>
+</body>
+</html>
